@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		9F325E712AC7A79400F61FAC /* LorcanaTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F325E702AC7A79400F61FAC /* LorcanaTestAppApp.swift */; };
-		9F325E732AC7A79400F61FAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F325E722AC7A79400F61FAC /* ContentView.swift */; };
+		9F325E732AC7A79400F61FAC /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F325E722AC7A79400F61FAC /* CardListView.swift */; };
 		9F325E752AC7A79700F61FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F325E742AC7A79700F61FAC /* Assets.xcassets */; };
 		9F325E782AC7A79700F61FAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F325E772AC7A79700F61FAC /* Preview Assets.xcassets */; };
+		9F325E7F2AC7A89400F61FAC /* ApiServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F325E7E2AC7A89400F61FAC /* ApiServiceClass.swift */; };
+		9F325E812AC7A9CE00F61FAC /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F325E802AC7A9CE00F61FAC /* CardListViewModel.swift */; };
+		9F325E832AC7AA1E00F61FAC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F325E822AC7AA1E00F61FAC /* Card.swift */; };
+		9F325E872AC7B4E700F61FAC /* CardListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F325E862AC7B4E700F61FAC /* CardListRowView.swift */; };
+		9F325E892AC7B9AD00F61FAC /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F325E882AC7B9AD00F61FAC /* CardDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F325E6D2AC7A79400F61FAC /* LorcanaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LorcanaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F325E702AC7A79400F61FAC /* LorcanaTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LorcanaTestAppApp.swift; sourceTree = "<group>"; };
-		9F325E722AC7A79400F61FAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F325E722AC7A79400F61FAC /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 		9F325E742AC7A79700F61FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F325E772AC7A79700F61FAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F325E7E2AC7A89400F61FAC /* ApiServiceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceClass.swift; sourceTree = "<group>"; };
+		9F325E802AC7A9CE00F61FAC /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		9F325E822AC7AA1E00F61FAC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9F325E862AC7B4E700F61FAC /* CardListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListRowView.swift; sourceTree = "<group>"; };
+		9F325E882AC7B9AD00F61FAC /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				9F325E702AC7A79400F61FAC /* LorcanaTestAppApp.swift */,
-				9F325E722AC7A79400F61FAC /* ContentView.swift */,
 				9F325E742AC7A79700F61FAC /* Assets.xcassets */,
 				9F325E762AC7A79700F61FAC /* Preview Content */,
+				9F325E802AC7A9CE00F61FAC /* CardListViewModel.swift */,
+				9F325E722AC7A79400F61FAC /* CardListView.swift */,
+				9F325E862AC7B4E700F61FAC /* CardListRowView.swift */,
+				9F325E882AC7B9AD00F61FAC /* CardDetailView.swift */,
+				9F325E822AC7AA1E00F61FAC /* Card.swift */,
+				9F325E7E2AC7A89400F61FAC /* ApiServiceClass.swift */,
 			);
 			path = LorcanaTestApp;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F325E732AC7A79400F61FAC /* ContentView.swift in Sources */,
+				9F325E812AC7A9CE00F61FAC /* CardListViewModel.swift in Sources */,
+				9F325E872AC7B4E700F61FAC /* CardListRowView.swift in Sources */,
+				9F325E7F2AC7A89400F61FAC /* ApiServiceClass.swift in Sources */,
+				9F325E832AC7AA1E00F61FAC /* Card.swift in Sources */,
+				9F325E732AC7A79400F61FAC /* CardListView.swift in Sources */,
 				9F325E712AC7A79400F61FAC /* LorcanaTestAppApp.swift in Sources */,
+				9F325E892AC7B9AD00F61FAC /* CardDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

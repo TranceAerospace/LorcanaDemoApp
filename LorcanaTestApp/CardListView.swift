@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CardListView: View {
-    @State private var viewModel = ContentViewModel()
+    @State private var viewModel = CardListViewModel()
     
     
     var body: some View {
@@ -26,5 +26,5 @@ struct CardListView: View {
 }
 
 #Preview {
-    ContentView()
+    CardListView()
 }

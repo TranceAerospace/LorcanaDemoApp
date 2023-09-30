@@ -11,7 +11,7 @@ import SwiftUI
 struct LorcanaTestAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardListView()
         }
     }
 }
